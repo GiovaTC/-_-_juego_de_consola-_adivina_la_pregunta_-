@@ -8,7 +8,9 @@
         💡  RESPONDES.
           🎯  ACIERTAS.
 ========================================
-
+     
+<img width="2546" height="1032" alt="image" src="https://github.com/user-attachments/assets/22100250-f849-4d47-9ec2-bfd886aa0d22" />     
+          
 A continuación se presenta una **solución completa, clara y ejecutable** de un juego de consola en **C#** para **Visual Studio 2022**, llamado **“Adivina la Pregunta”**.
 
 ---
