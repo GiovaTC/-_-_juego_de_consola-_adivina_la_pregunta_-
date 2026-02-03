@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace AdivinaLaPregunta
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -14,7 +14,7 @@ namespace AdivinaLaPregunta
             List<Pregunta> preguntas = new List<Pregunta>()
             {
                 new Pregunta(
-                    "Paris",
+                    "París",
                     new string[]
                     {
                         "¿Cuál es la capital de Francia?",
@@ -69,7 +69,7 @@ namespace AdivinaLaPregunta
                     Console.WriteLine($"{i + 1}) {actual.Opciones[i]}");
                 }
 
-                Console.Write("\nSelecciona una opcion (1-4): ");
+                Console.Write("\nSelecciona una opción (1-4): ");
                 int opcion;
 
                 if (int.TryParse(Console.ReadLine(), out opcion) &&
@@ -112,6 +112,7 @@ namespace AdivinaLaPregunta
         public string Respuesta { get; set; }
         public string[] Opciones { get; set; }
         public int RespuestaCorrecta { get; set; }
+
         public Pregunta(string respuesta, string[] opciones, int respuestaCorrecta)
         {
             Respuesta = respuesta;
